@@ -1,0 +1,67 @@
+#tabMenu {
+    color: #000;
+    border-bottom: 1px solid gray;
+    margin: 12px 0 0 0;
+    padding: 0;
+    z-index: 1;
+    padding-left: 10px;
+}
+
+#tabMenu li {
+    display: inline;
+    overflow: hidden;
+    list-style-type: none; 
+}
+
+#tabMenu a, a.active {
+    color: #AAAAAA;
+    background: #295229;
+    font: normal 1em verdana, Arial, sans-serif;
+    border: 1px solid black;
+    padding: 2px 5px 0px 5px;
+    margin: 0;
+    text-decoration: none;
+}
+
+#tabMenu a.active {
+    background: #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+#tabMenu a:hover {
+    color: #FFF;
+    background: #ADC09F;
+}
+
+#tabMenu a:visited {
+    color: #E8E9BE;
+}
+
+#tabMenu a.active:hover { 
+    background: #ffffff; 
+    color: #DEDECF; 
+} 
+
+#page {
+    font: 0.9em/1.3em verdana, sans-serif; 
+    text-align: justify; 
+    background: #ffffff; 
+    padding: 20px; 
+    border: 1px solid black; 
+    border-top: none; 
+    z-index: 2; 
+} 
+
+#page a { 
+text-decoration: none; 
+color: #E8E9BE; 
+} 
+
+#page a:hover { 
+    background: #aaaaaa; 
+} 
+
+img {
+    height: 100px;
+    width: 100px;
+}
